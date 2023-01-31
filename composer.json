@@ -1,0 +1,26 @@
+{
+    "name": "trinity-s/pkg",
+    "description": "Create php package",
+    "autoload": {
+        "psr-4": {
+            "TrinityS\\Pkg\\": "src/"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "TrinityS\\Pkg\\": "tests/"
+      }
+    },
+    "authors": [
+        {
+            "name": "vzivkovic",
+            "email": "vzivkovic@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^7.19"
+    },
+    "minimum-stability": "dev",
+    "type": "library",
+    "prefer-stable": true
+}
